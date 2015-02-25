@@ -1,0 +1,148 @@
+{
+  "FromName": "Robert Culliton",
+  "From": "rob.culliton@gmail.com",
+  "FromFull": {
+    "Email": "rob.culliton@gmail.com",
+    "Name": "Robert Culliton",
+    "MailboxHash": ""
+  },
+  "To": "mail@wampum.io",
+  "ToFull": [
+    {
+      "Email": "mail@wampum.io",
+      "Name": "",
+      "MailboxHash": ""
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "Bcc": "58db53f3a8351b93ce07ff0343e70946@inbound.postmarkapp.com",
+  "BccFull": [
+    {
+      "Email": "58db53f3a8351b93ce07ff0343e70946@inbound.postmarkapp.com",
+      "Name": "",
+      "MailboxHash": ""
+    }
+  ],
+  "OriginalRecipient": "58db53f3a8351b93ce07ff0343e70946@inbound.postmarkapp.com",
+  "Subject": "test attachment",
+  "MessageID": "c223cef8-b72e-4bd1-a990-3e586171de6d",
+  "ReplyTo": "",
+  "MailboxHash": "",
+  "Date": "Sun, 22 Feb 2015 06:27:52 -0800 (PST)",
+  "TextBody": "This is a test\r\n\r\n\r\n\u2014\r\nSent from Mailbox",
+  "HtmlBody": "<!DOCTYPE html PUBLIC \"-\/\/W3C\/\/DTD HTML 4.0 Transitional\/\/EN\" \"http:\/\/www.w3.org\/TR\/REC-html40\/loose.dtd\">\r\n<html><body>\r\n<span id=\"mailbox-conversation\"><div>This is a test<\/div>\r\n<div><\/div><\/span><div class=\"mailbox_signature\">\r\n<br>&mdash;<br>Sent from <a href=\"https:\/\/www.dropbox.com\/mailbox\">Mailbox<\/a>\r\n<\/div>\r\n<\/body><\/html>\r\n",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Headers": [
+    {
+      "Name": "X-Spam-Checker-Version",
+      "Value": "SpamAssassin 3.3.1 (2010-03-16) on sc-iad-inbound1"
+    },
+    {
+      "Name": "X-Spam-Status",
+      "Value": "No"
+    },
+    {
+      "Name": "X-Spam-Score",
+      "Value": "-0.1"
+    },
+    {
+      "Name": "X-Spam-Tests",
+      "Value": "DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,T_FREEMAIL_DOC_PDF,URIBL_BLOCKED"
+    },
+    {
+      "Name": "Received-SPF",
+      "Value": "None (no SPF record) identity=mailfrom; client-ip=209.85.216.173; helo=mail-qc0-f173.google.com; envelope-from=mail+caf_=58db53f3a8351b93ce07ff0343e70946=inbound.postmarkapp.com@wampum.io; receiver=58db53f3a8351b93ce07ff0343e70946@inbound.postmarkapp.com"
+    },
+    {
+      "Name": "X-Google-DKIM-Signature",
+      "Value": "v=1; a=rsa-sha256; c=relaxed\/relaxed;        d=1e100.net; s=20130820;        h=x-gm-message-state:delivered-to:dkim-signature:date:mime-version         :message-id:from:to:subject:content-type;        bh=u2+UOuiblX2W7Flc4297sqAoWqtV6rS12ILf1BJEz50=;        b=TOEHs1RefNeORYIja7npk7XNjIXCnIOG\/G7iyYmoMITngHYRngQ6RZ62V\/llKF9KBA         G+SmOyX+GSMb3iVFO5t9OkMIfMfT\/h3tmis3dX5sM2acWLJgJlQllUATOz1GH1uaOYRS         2nHUOieHfiJUx7YUPhCblHBN15pns\/VWNHurb01UoS53yt56f5sT4ALTu+WiP8d\/06yg         W+ziK6DJSR15Ai8HEV7YNS76LRZnI1\/I7cjg57OaiST5vuJfUMrcOgC9z5dcoWowAo83         pqEGHq8EtzM\/RKCoUm7\/RK42nUsHQ2WaH\/kGrpUb5QnrQiHQba4uXr1Q\/nDcGschOrK+         V2jw=="
+    },
+    {
+      "Name": "X-Gm-Message-State",
+      "Value": "ALoCoQma21c7CXMbtlZ9Fx0c67p3jr8cyl\/CISQ9dKeORgVbeQtJcbvZyPZyzPHvluB2L2HCY2Xz"
+    },
+    {
+      "Name": "X-Received",
+      "Value": "by 10.140.236.151 with SMTP id h145mr15645873qhc.9.1424615273880;        Sun, 22 Feb 2015 06:27:53 -0800 (PST)"
+    },
+    {
+      "Name": "X-Forwarded-To",
+      "Value": "58db53f3a8351b93ce07ff0343e70946@inbound.postmarkapp.com"
+    },
+    {
+      "Name": "X-Forwarded-For",
+      "Value": "mail@wampum.io 58db53f3a8351b93ce07ff0343e70946@inbound.postmarkapp.com"
+    },
+    {
+      "Name": "Delivered-To",
+      "Value": "mail@wampum.io"
+    },
+    {
+      "Name": "X-Received",
+      "Value": "by 10.140.234.198 with SMTP id f189mr16152403qhc.0.1424615273197;        Sun, 22 Feb 2015 06:27:53 -0800 (PST)"
+    },
+    {
+      "Name": "Received-SPF",
+      "Value": "pass (google.com: domain of rob.culliton@gmail.com designates 2607:f8b0:400d:c04::232 as permitted sender) client-ip=2607:f8b0:400d:c04::232;"
+    },
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.google.com;       spf=pass (google.com: domain of rob.culliton@gmail.com designates 2607:f8b0:400d:c04::232 as permitted sender) smtp.mail=rob.culliton@gmail.com;       dkim=pass header.i=@gmail.com;       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com"
+    },
+    {
+      "Name": "DKIM-Signature",
+      "Value": "v=1; a=rsa-sha256; c=relaxed\/relaxed;        d=gmail.com; s=20120113;        h=date:mime-version:message-id:from:to:subject:content-type;        bh=u2+UOuiblX2W7Flc4297sqAoWqtV6rS12ILf1BJEz50=;        b=Z8whXzxyHLk7Cy2azxFWu1hyd3xPTnkvYA5kPdRlXPwAmVcZJ8dZMNVM1EGNeeB02p         IG9IRPT8lStbN8i7n3Jf0Zs\/BsBtMcve9BuzckWvkWezwAuLA2YwM2U7GN8NgKQ45mdk         39KVoDNq3HKdqqpy2oa\/tjtWHo38WYVh3n9jm4PQa9EM6mrdhVYP+E\/z34HPp9+p0yYU         xtg7WtgJE60Jp8og4bkYPBmmeo6Ehb7vbjF7sVtK3BzitAVI2ovwUIm35B+4OicqDKiW         YrfceLwYJ5qpN5q9UHxeNSZG1D0Qpi9pE466iQqT7EPQQobrFRjmjvyYx8v\/rITYIRx8         p0iA=="
+    },
+    {
+      "Name": "X-Received",
+      "Value": "by 10.140.31.246 with SMTP id f109mr14588568qgf.23.1424615273082;        Sun, 22 Feb 2015 06:27:53 -0800 (PST)"
+    },
+    {
+      "Name": "X-Google-Original-Date",
+      "Value": "Sun, 22 Feb 2015 14:27:52 GMT"
+    },
+    {
+      "Name": "MIME-Version",
+      "Value": "1.0"
+    },
+    {
+      "Name": "X-Mailer",
+      "Value": "Nodemailer (0.5.0; +http:\/\/www.nodemailer.com\/)"
+    },
+    {
+      "Name": "Message-Id",
+      "Value": "<1424615272560.26c199b3@Nodemailer>"
+    },
+    {
+      "Name": "X-Orchestra-Oid",
+      "Value": "85D9B25A-62C6-471B-BEE8-A7C5929B50AF"
+    },
+    {
+      "Name": "X-Orchestra-Sig",
+      "Value": "34a950a5475f312bcfc22375598d930a0579983c"
+    },
+    {
+      "Name": "X-Orchestra-Thrid",
+      "Value": "81141A4E-718E-4240-96C6-DD1B05F82150"
+    },
+    {
+      "Name": "X-Orchestra-Thrid-Sig",
+      "Value": "c515c7f672a4f84b8d7103b4d166241ba96b68ae"
+    },
+    {
+      "Name": "X-Orchestra-Account",
+      "Value": "9b3846fa5e073c8a3717c3c8f0a7092b327dfd5a"
+    }
+  ],
+  "Attachments": [
+    {
+      "Name": "2.21.15Notes.rtf",
+      "Content": "e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQzXGNvY29hc3VicnRmMTQwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTtcZjFcZm1vZGVyblxmY2hhcnNldDAgQ291cmllcjtcZjJcZnJvbWFuXGZjaGFyc2V0MCBUaW1lcy1Sb21hbjsKXGYzXGZuaWxcZmNoYXJzZXQwIEhlbHZldGljYU5ldWU7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkODJcZ3JlZW4wXGJsdWU4MztccmVkMjQ1XGdyZWVuMjQ1XGJsdWUyNDU7XHJlZDgzXGdyZWVuODVcYmx1ZTI7ClxyZWQzOFxncmVlbjM4XGJsdWUzODtccmVkODNcZ3JlZW44M1xibHVlODM7XHJlZDI0OVxncmVlbjI0OVxibHVlMjQ5O1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxtYXJnbDE0NDBcbWFyZ3IxNDQwXHZpZXd3MTA4MDBcdmlld2g4NDAwXHZpZXdraW5kMApccGFyZFx0eDcyMFx0eDE0NDBcdHgyMTYwXHR4Mjg4MFx0eDM2MDBcdHg0MzIwXHR4NTA0MFx0eDU3NjBcdHg2NDgwXHR4NzIwMFx0eDc5MjBcdHg4NjQwXHBhcmRpcm5hdHVyYWwKClxmMFxmczI0IFxjZjAgMS4gcGFyc2Ugc29uIHN0cmluZyB3aXRoIHBsYXlcJzkycyBidWlsdCBpbiBqc29uIGxpYnJhcnksIHdoaWNoIHJldHVybnMgYSBqc1ZhbHVlXAoyLiB0cmF2ZXJzZSB0aGUgSnNWYWx1ZSB3aXRoIHRoZSBcJzkzXFxcJzk0IHN5bnRheC5cCjMuIGNvbnZlcnQganN2YWx1ZSB3aXRoIEpzVmFsdWUuYXNbVF1cClwKVGhlIGFzIG1ldGhvZCB3aWxsIHRocm93IGEgSnNSZXN1bHRFeGNlcHRpb24gaWYgdGhlIHBhdGggaXMgbm90IGZvdW5kIG9yIHRoZSBjb252ZXJzaW9uIGlzIG5vdCBwb3NzaWJsZS5cClwKeW91IGNhbiB2YWxpZGF0ZSBhIGpzdmFsdWUgd2hpY2ggc2VlbXMga2luZCBvZiB0ZWRpb3VzIG9yIHlvdSBjYW4gY29udmVydCBpdCB0byBhIG1vZGVsXApcCnJldHVybnMgYSAKXGYxXGZzMjggXGNmMiBcY2IzIFxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgSnNSZXN1bHRcY2Y0IFxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzQgW1xjZjIgXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBQbGFjZVxjZjQgXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjNCBdClxmMlxmczMwIFxjZjUgXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjNSBcClxwYXJkXHBhcmRlZnRhYjcyMFxzbDM5MAoKXGYxIFxjZjYgXGNiNyBcZXhwbmQwXGV4cG5kdHcwXGtlcm5pbmcwClxvdXRsMFxzdHJva2V3aWR0aDAgXHN0cm9rZWM2IEpzUmVzdWx0W1RdClxmMyBcY2Y1IFxjYjggXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjNSAgY2FuIGhhdmUgMiB2YWx1ZXM6fQ==",
+      "ContentType": "application/rtf",
+      "ContentID": "",
+      "ContentLength": 1492
+    }
+  ]
+}
