@@ -1,5 +1,7 @@
 ## Postmark Mitt
 
+![Alt text](http://www.hp-lexicon.org/images/chapters/pa/c01--owl-post.jpg)
+
 This set of case classes and their accompanying readers is meant to be used to help parse inbound mail with [Postmark](http://developer.postmarkapp.com/developer-process-parse.html).
 
 It is assumed to be used with the [Play](https://www.playframework.com/) Framework for both parsing and validating the incoming JSON request, and as such, relies on two of Play's internal libraries.
