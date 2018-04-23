@@ -1,0 +1,4 @@
+2018-04-23  Robert Culliton  <robertculliton@Roberts-MacBook.local>
+
+	* README.md: we don't want to edit the readme directly any more
+
