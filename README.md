@@ -1,5 +1,5 @@
 ## Postmark Mitt
-;; matias
+
 ![Alt text](http://www.hp-lexicon.org/images/chapters/pa/c01--owl-post.jpg)
 
 This set of case classes and their accompanying readers is meant to be used to help parse inbound mail with [Postmark](http://developer.postmarkapp.com/developer-process-parse.html).
