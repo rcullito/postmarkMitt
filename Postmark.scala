@@ -17,7 +17,7 @@ package models {
         to: String,
         toFull: Seq[full],
         cc: String,
-        ccFull: Seq[String],
+        ccFull: Seq[full],
         bcc: String,
         bccFull: Seq[full],
         originalRecipient: String,
